@@ -345,3 +345,341 @@ div.footer h6 {
     font-size: 1rem;
     padding-top: 6rem;
 }
+@media screen and (max-width: 1024px){
+    div.hero-background-pos {
+        position: absolute;
+        right: 0px;
+        left: 66%;
+        background: #fff;
+        width: 0px;
+        height: 0px;
+        border-radius: 50%;
+        box-shadow: 2px 2px 15px 0 rgb(135 135 135 / 40%);
+    }
+}
+@media screen and (max-width: 768px){
+    div.nav-bar {
+        display: flex;
+        justify-content: space-between;
+        padding: 1rem;
+        width: 100vw;
+        background: #304353;
+    }     
+    div.logo {
+        font-size: 1.2rem;
+    }
+    ul.nav-links {
+        flex-direction: column;
+    }
+    ul li {
+        margin-right: 0.2vw;
+        font-size: 1rem;
+    }
+    ul li a {
+        display: block;
+    }
+    div.hero-section {
+        background: #304353;
+        padding: 8rem;
+    }
+    
+    div.hero-content-heading {
+        text-align: center;
+    }
+    
+    div.hero-content-heading h3 {
+        font-size: 1.3rem;
+        text-transform: uppercase;
+        letter-spacing: 1.5px;
+        font-weight: 200;
+        color: #bcc3c7;
+    }
+    
+    div.hero-content-heading p {
+        text-align: center;
+        padding-top: 0.7rem;
+        color: #88949B;
+        font-size: 1rem;
+        letter-spacing: 2px;
+        font-weight: 300;
+    }
+    
+    div.hero-content-btn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 2rem;
+    }
+    
+    div.hero-content-btn a {
+        background: #E44C65;
+        text-decoration: none;
+        color: #bcc3c7;
+        font-size: 0.9rem;
+        padding: 10px 30px;
+        border-radius: 3px;
+        letter-spacing: 2px;
+    }
+    div.hero-background {
+        background: #f0f0f0;
+        padding: 10rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    div.background {
+        background: #fff;
+        box-shadow: 2px 2px 15px 0 rgb(135 135 135 / 40%);
+        padding: 15px 40px;
+        width: 550px;
+        height: 220px;
+        position: relative;
+    }
+    
+    div.background h4 {
+        padding: 2rem;
+        color: #555657;
+        font-size: 1rem;
+        letter-spacing: 1.5px;
+        text-transform: uppercase;
+    }
+    
+    div.background p {
+        color: #A6A5AA;
+        padding-left: 1rem;
+        font-size: 0.7rem;
+        letter-spacing: 1px;
+    }
+    div.hero-background-pos {
+        position: absolute;
+        right: 0px;
+        left: 66%;
+        background: #fff;
+        width: 0px;
+        height: 0px;
+        border-radius: 50%;
+        box-shadow: 2px 2px 15px 0 rgb(135 135 135 / 40%);
+    }
+    div.snapshot-team {
+        background: #f0f0f0;
+        text-align: center;
+        padding-top: 2rem;
+    }
+    
+    div.snapshot-team h2 {
+        color: #555657;
+        font-size: 1.2rem;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+    }
+    
+    div.snapshot-team p {
+        color: #A6A5AA;
+        font-size: 0.8rem;
+        letter-spacing: 2px;
+        padding-top: 0.8rem;
+    }
+    
+    div.snapshot-box {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #f0f0f0;
+        padding: 4rem 6rem;
+    }
+    
+    div.snapshot-box-content {
+        display: flex;
+        justify-content: space-between;
+    }
+    div.gallery-section {
+        background: #fff;
+        padding: 3rem;
+    }
+    
+    div.gallery-content {
+        text-align: center;
+    }
+    
+    div.gallery-content h4 {
+        color: #555657;
+        font-size: 1.2rem;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+    }
+    
+    div.gallery-content p {
+        color: #A6A5AA;
+        font-size: 0.8rem;
+        letter-spacing: 2px;
+        padding-top: 0.8rem;
+    }
+    div.footer {
+        background: #304353;
+        padding: 3rem;
+    }
+    
+    div.footer-content {
+        text-align: center;
+    }
+    
+    div.footer-content h4 {
+        color: #bcc3c7;
+        font-size: 1.2rem;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+    }
+    
+    div.footer-content p {
+        color: #88949B;
+        font-size: 0.8rem;
+        letter-spacing: 2px;
+        padding-top: 0.8rem;
+    }
+    @media screen and (max-width: 540px){
+        div.background {
+            background: #fff;
+            box-shadow: 2px 2px 15px 0 rgb(135 135 135 / 40%);
+            padding: 15px 40px;
+            width: 650px;
+            height: 320px;
+            position: relative;
+        }
+        div.snapshot-box-content {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+    }
+    @media screen and (max-width: 425px){
+        div.hero-background {
+            background: #f0f0f0;
+            padding: 8rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        div.background {
+            background: #fff;
+            box-shadow: 2px 2px 15px 0 rgb(135 135 135 / 40%);
+            padding: 15px 40px;
+            width: 650px;
+            height: 320px;
+            position: relative;
+        }
+        
+        div.background h4 {
+            padding: 2rem;
+            color: #555657;
+            font-size: 1rem;
+            letter-spacing: 1.5px;
+            text-transform: uppercase;
+        }
+        
+        div.background p {
+            color: #A6A5AA;
+            padding-left: 1rem;
+            font-size: 0.7rem;
+            letter-spacing: 1px;
+        }
+       
+        input[type="text"] {
+            margin-right: 10px;
+            padding: 10px 20px;
+            width: 35%;
+            outline: none;
+            border: 1px solid #bcc3c7;
+            background: transparent;
+            color: #f0f0f0;
+            font-size: 0.8rem;
+            border-radius: 2px;
+        }
+        
+        input[type="email"] {
+            margin-right: 10px;
+            padding: 10px 20px;
+            width: 35%;
+            outline: none;
+            border: 1px solid #bcc3c7;
+            background: transparent;
+            color: #f0f0f0;
+            font-size: 0.8rem;
+            border-radius: 2px;
+        }
+        textarea {
+            width: 75%;
+            height: 175px;
+            padding: 0.5rem;
+            outline: none;
+            border: 1px solid #bcc3c7;
+            background: transparent;
+            color: #f0f0f0;
+        }
+        @media screen and (max-width: 375px) {
+            input[type="text"] {
+                margin-right: 10px;
+                padding: 10px 20px;
+                width: 35%;
+                outline: none;
+                border: 1px solid #bcc3c7;
+                background: transparent;
+                color: #f0f0f0;
+                font-size: 0.8rem;
+                border-radius: 2px;
+            }
+            
+            input[type="email"] {
+                margin-right: 10px;
+                padding: 10px 20px;
+                width: 35%;
+                outline: none;
+                border: 1px solid #bcc3c7;
+                background: transparent;
+                color: #f0f0f0;
+                font-size: 0.8rem;
+                border-radius: 2px;
+        }
+        textarea {
+            width: 75%;
+            height: 175px;
+            padding: 0.5rem;
+            outline: none;
+            border: 1px solid #bcc3c7;
+            background: transparent;
+            color: #f0f0f0;
+        }
+        @media screen and (max-width: 280px){
+            input[type="text"] {
+                margin-right: 10px;
+                padding: 10px 20px;
+                width: 45%;
+                outline: none;
+                border: 1px solid #bcc3c7;
+                background: transparent;
+                color: #f0f0f0;
+                font-size: 0.8rem;
+                border-radius: 2px;
+            }
+            
+            input[type="email"] {
+                margin-right: 10px;
+                padding: 10px 20px;
+                width: 45%;
+                outline: none;
+                border: 1px solid #bcc3c7;
+                background: transparent;
+                color: #f0f0f0;
+                font-size: 0.8rem;
+                border-radius: 2px;
+        }
+        textarea {
+            width: 100%;
+            height: 200px;
+            padding: 0.5rem;
+            outline: none;
+            border: 1px solid #bcc3c7;
+            background: transparent;
+            color: #f0f0f0;
+        }
+       
